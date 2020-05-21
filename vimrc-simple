@@ -1,0 +1,131 @@
+filetype plugin indent on
+
+set smartindent
+set autowrite
+set autochdir
+set backspace=indent,eol,start
+
+set fileencodings=utf-8,GBK,ucs-bom,cp936,latin1,big5,utf-16
+
+set encoding=utf-8
+set fileencoding=utf-8
+set termencoding=utf-8
+
+"set nowrap
+set wrap
+set backspace=indent,eol,start
+set nobackup
+set showcmd
+set sts=4
+set autoindent
+set history=1000
+set incsearch
+set laststatus=2
+set matchtime=2
+set hlsearch
+set ruler
+set mouse=
+
+set scrolloff=10
+set showmatch
+set showcmd
+set tabstop=4
+set softtabstop=4
+set expandtab
+
+au BufRead * set whichwrap=<,>,h,l
+au BufRead,bufNewFile * set nobackup
+
+au BufRead,bufNewFile *.inc  set filetype=html.javascript
+au BufRead,bufNewFile *.tpl  set filetype=html.javascript
+au BufRead,bufNewFile *.html set filetype=html.javascript
+au BufRead,bufNewFile *.php set filetype=php
+
+
+nmap q :q!
+
+nmap <silent> ( 5<c-w><
+nmap <silent> ) 5<c-w>>
+nmap <silent> - 10<c-w>-
+nmap <silent> = 10<c-w>+
+nmap <c-j> <c-w>j
+nmap <c-k> <c-w>k
+nmap <c-h> <c-w>h
+imap <silent> <c-w> <esc>:w<cr>
+nmap <c-p> <s-o><esc>jo<esc>h
+
+nmap <silent> <s-s> <esc>:w<cr>
+nmap <silent> ee zR
+nmap cp yaw
+"nmap p 
+
+
+"auto complete
+set nocp
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+
+
+""""""""
+" ctags
+"""""""""
+let generate_tags=1
+let g:ctags_title=1
+let g:ctags_statusline=1
+set tags=tags;
+
+map <c-x> :Tlist<cr>
+
+""""""""""""""""
+"winManager
+""""""""""""""""
+let g:winManagerWindowLayout = "BufExplorer,FileExplorer|TagList"
+let g:winManagerWidth = 30
+let g:defaultExplorer = 0
+map wm :WMToggle<cr>
+map <c-w><c-t> :WMToggle<cr>
+map <tab> <c-w><c-w>
+map tp :tabp<cr>
+map tn :tabn<cr>
+map tt <c-t>
+map ff <c-]>
+set clipboard+=unnamed
+set novisualbell
+
+let g:skip_loading_mswin=1
+
+""""""""""""""""""""""""""""""
+"DTree
+""""""""""""""""""""""""""""
+map nd :NERDTree
+map nc :NERDTreeClose
+"source $VIMRUNTIME/vimrc_example.vim
+"source $VIMRUNTIME/mswin.vim
+behave mswin
+
+""""""""""""""""""""""""""""""
+" netrw setting
+""""""""""""""""""""""""""""""
+let g:netrw_winsize = 30
+nmap fe :Sexplore!<cr>
+
+
+au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")|execute("normal `\"")|endif
+vnoremap < <gv
+vnoremap > >gv 
+
+colorscheme slate
+
+set foldmethod=indent
+
+set formatoptions+=tcrqvmMB
+
+nmap <silent> <F6> :set number!<CR>
+nmap <silent> <F8> :set nowrap!<CR>
+nmap <HOME> ^i
+imap <HOME> <ESC>^i
+
+set nu
+syntax on
+set shiftwidth=4
+
+colors desert
