@@ -18,7 +18,13 @@ Dash: <a href="https://kapeli.com/dash" target="_blank">https://kapeli.com/dash<
 
 jupyter : <a href="https://jupyter.org/install" target="_blank">https://jupyter.org/install</a>
 
+sublime: <a href="http://www.sublimetext.com/" target="_blank">http://www.sublimetext.com/</a>
+
+Typora: <a href="https://www.typora.io/" target="_blank">https://www.typora.io/</a>
+
 postwoman (支持PWA): <a href="https://postwoman.io/" target="_blank">https://postwoman.io/</a>
+
+jmeter : <a href="https://jmeter.apache.org/" target="_blank">https://jmeter.apache.org/</a>
 
 Xmind :  <a href="https://www.xmind.cn/" target="_blank">https://www.xmind.cn/</a>
 
