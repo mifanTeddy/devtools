@@ -18,6 +18,10 @@ Dash: <a href="https://kapeli.com/dash" target="_blank">https://kapeli.com/dash<
 
 jupyter : <a href="https://jupyter.org/install" target="_blank">https://jupyter.org/install</a>
 
+postwoman (支持PWA): <a href="https://postwoman.io/" target="_blank">https://postwoman.io/</a>
+
+Xmind :  <a href="https://www.xmind.cn/" target="_blank">https://www.xmind.cn/</a>
+
 ## 在线工具
 
 Processon 在线visio: <a href="https://www.processon.com" target="_blank">https://www.processon.com</a>
