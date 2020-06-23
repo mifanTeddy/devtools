@@ -28,6 +28,15 @@ jmeter : <a href="https://jmeter.apache.org/" target="_blank">https://jmeter.apa
 
 Xmind :  <a href="https://www.xmind.cn/" target="_blank">https://www.xmind.cn/</a>
 
+
+## Windows系统工具和配置
+
+更新win10到2004 Xmind :  <a href="https://www.microsoft.com/zh-cn/software-download/windows10" target="_blank">https://www.microsoft.com/zh-cn/software-download/windows10</a>
+
+WSL2 ： <a href="https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-index" target="_blank">https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-index</a>
+
+
+
 ## 在线工具
 
 Processon 在线visio: <a href="https://www.processon.com" target="_blank">https://www.processon.com</a>
