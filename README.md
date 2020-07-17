@@ -28,6 +28,8 @@ jmeter : <a href="https://jmeter.apache.org/" target="_blank">https://jmeter.apa
 
 Xmind :  <a href="https://www.xmind.cn/" target="_blank">https://www.xmind.cn/</a>
 
+Alfred :  <a href="https://www.alfredapp.com/" target="_blank">https://www.alfredapp.com/</a>
+
 
 ## Windows系统工具和配置
 
